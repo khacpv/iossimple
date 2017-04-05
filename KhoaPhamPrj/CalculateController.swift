@@ -14,14 +14,15 @@ class CalculateController: UIViewController {
     var so2:Int!
     var dau:String!
     
+    var data: Data!
+    
     @IBOutlet weak var txtKetQua: UITextField!
     @IBOutlet weak var txtDau: UILabel!
     @IBOutlet weak var txtSo1: UILabel!
     
     @IBAction func OpenScreen(_ sender: Any) {
-        // why show only black screen?
-        print("test")
-        let screen = ViewController()
+        let storyboard = UIStoryboard.init(name: "Main", bundle: nil)
+        let screen = storyboard.instantiateViewController(withIdentifier: "thongTinStoryBoard")
         //navigationController?.pushViewController(screen, animated: true)
         
         present(screen, animated: true, completion: nil)

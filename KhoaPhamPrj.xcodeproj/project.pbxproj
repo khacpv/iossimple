@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		75491EC91E95125800F0D9A8 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75491EC81E95125800F0D9A8 /* Data.swift */; };
 		758CE7631E58192400253A20 /* CalculateController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758CE7621E58192400253A20 /* CalculateController.swift */; };
 		75BDAFC11E5BF47700C71F26 /* DataItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75BDAFC01E5BF47700C71F26 /* DataItem.swift */; };
 		75BDAFC41E5BF61B00C71F26 /* GroupTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75BDAFC31E5BF61B00C71F26 /* GroupTable.swift */; };
@@ -24,6 +25,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		75491EC81E95125800F0D9A8 /* Data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Data.swift; path = Model/Data.swift; sourceTree = "<group>"; };
 		758CE7621E58192400253A20 /* CalculateController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalculateController.swift; sourceTree = "<group>"; };
 		75BDAFC01E5BF47700C71F26 /* DataItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DataItem.swift; path = Basic/DataItem.swift; sourceTree = "<group>"; };
 		75BDAFC31E5BF61B00C71F26 /* GroupTable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GroupTable.swift; path = Basic/GroupTable.swift; sourceTree = "<group>"; };
@@ -53,6 +55,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		75491EC71E95124400F0D9A8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				75491EC81E95125800F0D9A8 /* Data.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
 		75BDAFC21E5BF52300C71F26 /* Basic */ = {
 			isa = PBXGroup;
 			children = (
@@ -87,6 +97,7 @@
 		75E1B0E71E543A8700B9CEC4 /* KhoaPhamPrj */ = {
 			isa = PBXGroup;
 			children = (
+				75491EC71E95124400F0D9A8 /* Model */,
 				75BDAFC21E5BF52300C71F26 /* Basic */,
 				75E1B0E81E543A8700B9CEC4 /* AppDelegate.swift */,
 				75E1B0EA1E543A8700B9CEC4 /* ViewController.swift */,
@@ -182,6 +193,7 @@
 				758CE7631E58192400253A20 /* CalculateController.swift in Sources */,
 				75BDAFD41E5C1D6200C71F26 /* CustomCellDemo.swift in Sources */,
 				75BDAFC11E5BF47700C71F26 /* DataItem.swift in Sources */,
+				75491EC91E95125800F0D9A8 /* Data.swift in Sources */,
 				75E1B0E91E543A8700B9CEC4 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -8,49 +8,14 @@
 
 import UIKit
 
-typealias byte = UInt8
-
-postfix func ++ ( person: inout Person) -> Person {
-    let newPerson = Person(firstName: person.firstName, lastName: person.lastName)
-    return newPerson;
-}
-
-enum CarClassification: String {
-    case Estate = "Estate"
-    case Hatchback = "Hatchback"
-    case Saloon = "Saloon"
-}
-
-struct Car {
-    var classification: CarClassification
-}
-
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
-    func changeFirstNameOf(person: Person, to: String) {
-        person.firstName = to
-        //person.setFirstName(name: to);
-    }
-
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
-        let myUser = Person(firstName: "pham", lastName: "khac")
-        changeFirstNameOf(person: myUser, to: "hello")
-        print(myUser.firstName)
-        
-        _ = 0b01010101 | 0b10101010 /* = 0b11111111 */ /* plus operator */
-        _ = 10 + 20 /* = 30 */ /* minus operator */
-        _ = 20 - 10 /* = 10 */ /* multiplication operator */
-        _ = 10 * 20 /* = 200 */ /* division operator */
-        _ = 10.0 / 3.0 /* = 3.33333333333333 */
-        
-        var volvo50 = Car(classification: CarClassification.Estate)
-        volvo50.classification = CarClassification.Hatchback
-        
-        return true
+         return true
     }
 
     func applicationWillResignActive(_ application: UIApplication) {

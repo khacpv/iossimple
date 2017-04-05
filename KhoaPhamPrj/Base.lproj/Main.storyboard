@@ -14,7 +14,7 @@
         <!--View Controller-->
         <scene sceneID="dZJ-aw-sge">
             <objects>
-                <viewController id="nEH-XR-w1p" customClass="ViewController" customModule="KhoaPhamPrj" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="thongTinStoryBoard" id="nEH-XR-w1p" customClass="ViewController" customModule="KhoaPhamPrj" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="5DE-W6-bOE"/>
                         <viewControllerLayoutGuide type="bottom" id="TyJ-3U-W2u"/>
